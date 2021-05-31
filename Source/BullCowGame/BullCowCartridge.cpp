@@ -1,9 +1,9 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+
 #include "BullCowCartridge.h"
 #include "HiddenWordList.h"
 
 
-void UBullCowCartridge::BeginPlay() // When the game starts
+void UBullCowCartridge::BeginPlay()
 {
     Super::BeginPlay();
 	Isograms = GetValidWords(Words);
@@ -12,7 +12,7 @@ void UBullCowCartridge::BeginPlay() // When the game starts
 	
 }
 
-void UBullCowCartridge::OnInput(const FString& PlayerInput) // When the player hits enter
+void UBullCowCartridge::OnInput(const FString& PlayerInput)
 {
     if (bGameOver)
     {
