@@ -8,7 +8,7 @@ void UBullCowCartridge::BeginPlay()
     Super::BeginPlay();
 	Isograms = GetValidWords(Words);
     SetupGame();
-	// PrintLine(TEXT("Valid words is %i."), GetValidWords(Words).Num());
+	// PrintLine(TEXT("Valid words are %i."), GetValidWords(Words).Num());
 	
 }
 
